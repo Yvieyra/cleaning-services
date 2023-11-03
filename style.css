@@ -1,4 +1,31 @@
-li {
-    display: inline;
-  }
+header {
+    padding: 0;
+    margin: 0;  
+}
 
+  .myNav ul {
+    list-style-type: none;
+    padding: 18px;
+    margin: 0;
+    overflow: hidden;
+  background-color: #333;
+}
+
+.myNav li {
+    display: inline;
+    margin: 0;
+    
+}
+
+#navTitle {
+    font-size: 24px;
+    color: white;
+}
+
+li a {
+    display:inline;
+    color: white;
+    text-align:center;
+    padding: 15px 150px 15px 150px;
+    text-decoration:none;
+  }
