@@ -1,31 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+h1 {
+  text-align: center;
+}
+
 header {
     padding: 0;
     margin: 0;  
+    background-color:antiquewhite;
+}
+
+main {
+  margin: 15px;
 }
 
   .myNav ul {
+    display: flex;
+    justify-content:flex-end;
     list-style-type: none;
     padding: 18px;
     margin: 0;
-    overflow: hidden;
   background-color: #333;
 }
 
 .myNav li {
-    display: inline;
     margin: 0;
     
 }
 
-#navTitle {
-    font-size: 24px;
-    color: white;
-}
-
 li a {
-    display:inline;
     color: white;
-    text-align:center;
-    padding: 15px 150px 15px 150px;
+    padding: 50px;
     text-decoration:none;
   }
